@@ -10,7 +10,7 @@ const { requireAuth } = require('./middlewares/authMiddleware')
 
 const app = express()
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 80;
 
 const dbURL = 'mongodb+srv://sametdokumaci:5468615000s@deneme.llwy6.mongodb.net/Buildings?retryWrites=true&w=majority'
 mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true })

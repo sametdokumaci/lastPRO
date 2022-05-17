@@ -5,16 +5,17 @@ const morgan = require('morgan')
 const Site = require("./models/buildings")
 const adminRoutes = require("./routes/adminRoutes")
 const authRoutes = require("./routes/authRoutes")
-const {requireAuth} = require('./middlewares/authMiddleware')
+const { requireAuth } = require('./middlewares/authMiddleware')
 
 
 const app = express()
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 
 const dbURL = 'mongodb+srv://sametdokumaci:5468615000s@deneme.llwy6.mongodb.net/Buildings?retryWrites=true&w=majority'
 mongoose.connect(dbURL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result => app.listen(port)))
+    .then((result) => console.log(port + "Dinleniyor"))
     .catch((err) => console.log(err))
 
 

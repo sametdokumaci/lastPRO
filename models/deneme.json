@@ -1,0 +1,52 @@
+[
+    {
+        "Daire": {
+            "BLOK": "BlokAdi",
+            "KapiNo": "KapiNo",
+            "BulunduğuKat": "Kat",
+            "MetreKare": "m2",
+            "ArsaPayi": "arsaPay",
+            "aylikAidatTutari": "aidat"
+        },
+        "MalSahibi": {
+            "AdSoyad": "adSoyad",
+            "TCKN": "TCKN",
+            "dTarihi": "GG/AA/YYYY",
+            "SatinAlmaTarihi": "buyDate",
+            "gsm": "telNo",
+            "gsm2": "telNo2",
+            "homePhone": "evTelefonu",
+            "e-Posta": "e-mail",
+            "e-Posta2": "e-mail2",
+            "ev-adresi": "ev-adresi",
+            "is-adresi": "is-adresi",
+            "plaka": "plakaNo",
+            "plaka2": "plakoNo2",
+            "Devreden": {
+                "DevredenTarih": "Tarih",
+                "DevredenBorcBakiye": "Bakiye",
+                "DevredenAlacakBakiye": "alacakBakiye"
+            }
+        },
+        "Kiracı": {
+            "AdSoyad": "adSoyad",
+            "TCKN": "TCKN",
+            "dTarihi": "GG/AA/YYYY",
+            "KiraBaslangic": "buyDate",
+            "gsm": "telNo",
+            "gsm2": "telNo2",
+            "homePhone": "evTelefonu",
+            "e-Posta": "e-mail",
+            "e-Posta2": "e-mail2",
+            "ev-adresi": "ev-adresi",
+            "is-adresi": "is-adresi",
+            "plaka": "plakaNo",
+            "plaka2": "plakoNo2",
+            "Devreden": {
+                "DevredenTarih": "Tarih",
+                "DevredenBorcBakiye": "Bakiye",
+                "DevredenAlacakBakiye": "alacakBakiye"
+            }
+        }
+    }
+]
